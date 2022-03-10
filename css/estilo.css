@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*
+Web desarrollada por Erick Jaquez
+*/
+/*.
+    Fuente para personas con dislexia
+*/
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("../fonts/OpenDyslexic-Regular.otf") format("opentype");
+}
+/*
+Body Style
+*/
+body {
+  font-family: "Arial";
+  font-size: 2rem;
+  margin: 0 auto;
+  display: flex;
+}
+
+/*
+Maquetación de la página
+*/
+header {
+  width: 100%;
+  height: 100%;
+}
+header img {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  flex-direction: column;
+}
+main nav {
+  background-color: red;
+}
+main aside {
+  background-color: #c78319;
+}
+
+/*# sourceMappingURL=estilo.css.map */
