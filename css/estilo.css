@@ -3,7 +3,7 @@
 Web desarrollada por Erick Jaquez
 */
 /*.
-    Fuente para personas con dislexia
+Fuente para personas con dislexia
 */
 @font-face {
   font-family: "OpenDyslexic";
@@ -15,13 +15,12 @@ Body Style
 body {
   font-family: "Arial";
   font-size: 2em;
-  background-color: #FFDAC1;
 }
 
 /*
 Clases y etiquetas para dar color y estilo a los elementos de la página
 */
-header {
+.back-primary {
   background-color: #FFDAC1;
 }
 
@@ -29,8 +28,23 @@ header {
   background-color: #D3EEFF;
 }
 
+.back-white {
+  background-color: #fff;
+}
+
+.back-black {
+  background-color: #000;
+}
+
+.cl-primary {
+  color: #1D1905;
+}
+
 .cl-secondary {
   color: #2A002A;
+}
+.cl-secondary:hover {
+  color: #A5F8CE;
 }
 
 /*# sourceMappingURL=estilo.css.map */
