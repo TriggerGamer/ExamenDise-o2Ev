@@ -14,32 +14,14 @@ Body Style
 */
 body {
   font-family: "Arial";
-  font-size: 1rem;
-  margin: 0 auto;
+  font-size: 2em;
 }
 
 /*
-Maquetación de la página
+Clases para dar color y estilo a los elementos de la página
 */
-.contenedor {
-  display: flex;
-  flex-direction: column;
-  margin: 2vw;
-}
-
 header {
-  align-self: center;
-}
-header img {
-  width: 100%;
-  height: 100%;
-}
-
-main {
-  align-items: stretch;
-}
-main article {
-  background-color: #c78319;
+  background-color: #FFDAC1;
 }
 
 /*# sourceMappingURL=estilo.css.map */
