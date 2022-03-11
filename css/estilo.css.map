@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../Sass/Style.scss"],"names":[],"mappings":";AAIA;AAAA;AAAA;AAIA;AAAA;AAAA;AAIA;EACI;EACA;;AAgCJ;AAAA;AAAA;AAIA;EACI,aAjCU;EAkCV,WAjCQ;;;AAoCZ;AAAA;AAAA;AAIA;EACI,kBApCiB","file":"estilo.css"}
+{"version":3,"sourceRoot":"","sources":["../Sass/Style.scss"],"names":[],"mappings":";AAIA;AAAA;AAAA;AAIA;AAAA;AAAA;AAIA;EACI;EACA;;AAqCJ;AAAA;AAAA;AAIA;EACI,aAtCU;EAuCV,WAtCQ;EAuCR,kBAlCiB;;;AAqCrB;AAAA;AAAA;AAGA;EACI,kBAzCiB;;;AA4CrB;EACI,kBA5CmB;;;AA+CvB;EACI,OAtCc","file":"estilo.css"}

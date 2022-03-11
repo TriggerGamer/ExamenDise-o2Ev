@@ -32,9 +32,14 @@ $background-white: #fff;
 $background-black: #000;
 
 // text colors
-$color-primary: #fff;
-$color-secondary: #000;
-$color-tertiary: #dce5f1;
+$color-primary: #FFDAC1;
+$color-secondary: #2A002A;
+$color-info: #2b68c3;
+$color-succes: #A5F8CE;
+$color-warning: #FDFD95;
+$color-danger: #ff838d;
+$color-white: #fff;
+$color-black: #000;
 
 //Otras variables utiles
 $normal-vw: 2vw;
@@ -50,13 +55,22 @@ Body Style
 
 body {
     font-family: $font-family;
-    font-size: $font-size; 
+    font-size: $font-size;
+    background-color: $background-primary;
 }
 
 /*
-Clases para dar color y estilo a los elementos de la página
+Clases y etiquetas para dar color y estilo a los elementos de la página
 */
-
 header{
     background-color: $background-primary;
 }
+
+.back-secondary{
+    background-color: $background-secondary;
+}
+
+.cl-secondary{
+    color: $color-secondary;
+}
+
