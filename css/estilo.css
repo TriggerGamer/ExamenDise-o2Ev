@@ -41,10 +41,14 @@ Clases y etiquetas para dar color y estilo a los elementos de la página
 }
 
 .cl-secondary {
-  color: #2A002A;
+  color: #2A002A !important;
 }
 .cl-secondary:hover {
-  color: #A5F8CE;
+  color: #FDFD95 !important;
+}
+
+.cl-white {
+  color: #fff;
 }
 
 /*# sourceMappingURL=estilo.css.map */

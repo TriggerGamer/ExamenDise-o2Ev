@@ -41,7 +41,7 @@ $color-white: #fff;
 $color-black: #000;
 
 //link colors
-$link-hoover: #A5F8CE;
+$link-hoover: $color-warning;
 
 /*
 Body Style
@@ -79,9 +79,12 @@ Clases y etiquetas para dar color y estilo a los elementos de la página
 }
 
 .cl-secondary{
-    color: $color-secondary;
+    color: $color-secondary !important;
     &:hover{
-        color: $link-hoover;
+        color: $link-hoover !important;
     }
 }
 
+.cl-white{
+    color: $color-white;
+}
