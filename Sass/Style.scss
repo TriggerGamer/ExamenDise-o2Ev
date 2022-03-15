@@ -23,7 +23,7 @@ $font-family: "Arial";
 $background-primary: #FFDAC1;
 $background-secondary: #D3EEFF;
 $background-info: #2b68c3;
-$background-succes: #A5F8CE;
+$background-success: #A5F8CE;
 $background-warning: #FDFD95;
 $background-danger: #ff838d;
 $background-white: #fff;
@@ -64,6 +64,22 @@ Clases y etiquetas para dar color y estilo a los elementos de la página
     background-color: $background-secondary;
 }
 
+.back-success{
+    background-color: $background-success;
+}
+
+.back-info{
+    background-color: $background-info;
+}
+
+.back-warning{
+    background-color: $background-warning;
+}
+
+.back-danger{
+    background-color: $background-danger;
+}
+
 .back-white{
     background-color: $background-white;
 }
@@ -84,8 +100,28 @@ Clases y etiquetas para dar color y estilo a los elementos de la página
     }
 }
 
+.cl-success{
+    color: $color-success;
+}
+
+.cl-info{
+    color: $color-info;
+}
+
+.cl-warning{
+    color: $color-warning;
+}
+
+.cl-danger{
+    color: $color-danger;
+}
+
 .cl-white{
     color: $color-white;
+}
+
+.cl-black{
+    color: $color-black;
 }
 
 /* cambiar tamaño de algunos textos */

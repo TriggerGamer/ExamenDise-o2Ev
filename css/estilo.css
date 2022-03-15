@@ -28,6 +28,22 @@ Clases y etiquetas para dar color y estilo a los elementos de la página
   background-color: #D3EEFF;
 }
 
+.back-success {
+  background-color: #A5F8CE;
+}
+
+.back-info {
+  background-color: #2b68c3;
+}
+
+.back-warning {
+  background-color: #FDFD95;
+}
+
+.back-danger {
+  background-color: #ff838d;
+}
+
 .back-white {
   background-color: #fff;
 }
@@ -48,8 +64,28 @@ Clases y etiquetas para dar color y estilo a los elementos de la página
   color: #FDFD95 !important;
 }
 
+.cl-success {
+  color: #A5F8CE;
+}
+
+.cl-info {
+  color: #2b68c3;
+}
+
+.cl-warning {
+  color: #FDFD95;
+}
+
+.cl-danger {
+  color: #ff838d;
+}
+
 .cl-white {
   color: #fff;
+}
+
+.cl-black {
+  color: #000;
 }
 
 /* cambiar tamaño de algunos textos */
