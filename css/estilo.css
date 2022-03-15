@@ -14,12 +14,12 @@ Body Style
 */
 body {
   font-family: "Arial";
-  font-size: 2em;
 }
 
 /*
 Clases y etiquetas para dar color y estilo a los elementos de la página
 */
+/* colores de fondo */
 .back-primary {
   background-color: #FFDAC1;
 }
@@ -36,6 +36,7 @@ Clases y etiquetas para dar color y estilo a los elementos de la página
   background-color: #000;
 }
 
+/* colores de letras */
 .cl-primary {
   color: #1D1905;
 }
@@ -49,6 +50,15 @@ Clases y etiquetas para dar color y estilo a los elementos de la página
 
 .cl-white {
   color: #fff;
+}
+
+/* cambiar tamaño de algunos textos */
+.titulo {
+  font-size: 4em;
+}
+
+.menu {
+  font-size: 2em;
 }
 
 /*# sourceMappingURL=estilo.css.map */

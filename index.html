@@ -2,15 +2,16 @@
 <html lang="es">
 
 <head>
+
+    <title> Inicio </title>
+
     <meta charset="utf-8">
     <meta name="author" content="Erick Jose Jaquez Encarnacion">
     <meta name="description" content="página de para proyecto de espatulas">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title> Inicio </title>
-
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-icons.css">
 
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
@@ -22,17 +23,17 @@
     <div class="container-fluid">
         <!-- Header principal de la página -->
         <header class="row justify-content-center text-center">
-            <div class="col-auto text-center">
-                <img class="m-2 img-fluid" src="img/espatula.jpg" alt="Imagen de una espátula" >
+            <div class="col-auto">
+                <img class="m-2 img-fluid" src="img/espatula.jpg" alt="Imagen de una espátula">
             </div>
             <div>
-                <h1> Limes Platalea </h1>
+                <h1 class="titulo"> Limes Platalea </h1>
             </div>
         </header>
 
         <!-- Menú de la página -->
         <div class="row">
-            <nav class="mt-2 navbar navbar-expand-lg navbar-light back-secondary">
+            <nav class="mt-2 navbar navbar-expand-lg navbar-light back-secondary menu">
                 <a class="navbar-brand cl-secondary" href="#">Menú</a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false"
@@ -63,27 +64,29 @@
         </div>
         <!-- Contenedor seccion de la página -->
         <section class="row mt-5">
-            <div class="col embed-responsive">
-                <iframe class="embed-responsive-item" height="300" width="520" src="https://www.youtube.com/embed/RU--ShZ-cLY"
-                    title="YouTube video player of plataleas" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                </iframe>
-            </div>
-            <div class="col">
-                <h3>Descripcion del proyecto</h3>
-                <p> El nombre del proyecto procede del vocablo latín Limes que define un "camino vigilado por patrullas" y posteriormente delimita las fronteras del Imperio. Así Limes Germanicus, Limes Tripolitanus... al estar en la frontera natural entre Europa y África implica a tres municipios: Chiclana, Conil y Vejer de la Frontera y las patrullas... los "pajareros" que como "atalayeros" estarán “vigilando” en el litoral. Platalea se corresponde con el género de la especie que se pretende “seguir” en este proyecto.
-                    El objetivo de este estudio es cuantificar los efectivos migratorios comparándolos con el conocido contingente Europeo. Se trata de documentar un fenómeno migratorio de importancia excepcional que es además un gran espectáculo visual, con la posibilidad de desarrollar campañas de concienciación y voluntariado en la costa occidental de la Janda principalmente en la playa de la Barrosa.    
+
+            <div class="col m-3">
+                <h2 class="text-center">Descripcion del proyecto</h2>
+                <p class="fs-3"> El nombre del proyecto procede del vocablo latín Limes que define un "camino vigilado
+                    por patrullas" y posteriormente delimita las fronteras del Imperio. Así Limes Germanicus, Limes
+                    Tripolitanus... al estar en la frontera natural entre Europa y África implica a tres municipios:
+                    Chiclana, Conil y Vejer de la Frontera y las patrullas... los "pajareros" que como "atalayeros"
+                    estarán “vigilando” en el litoral. Platalea se corresponde con el género de la especie que se
+                    pretende “seguir” en este proyecto.
+                    El objetivo de este estudio es cuantificar los efectivos migratorios comparándolos con el conocido
+                    contingente Europeo. Se trata de documentar un fenómeno migratorio de importancia excepcional que es
+                    además un gran espectáculo visual, con la posibilidad de desarrollar campañas de concienciación y
+                    voluntariado en la costa occidental de la Janda principalmente en la playa de la Barrosa.
                 </p>
             </div>
         </section>
 
         <!-- Contenedor main de la página y donde se encuentra el contenido -->
         <main class="row mt-5">
-            <article class="col">
+            <article class="col m-2">
                 <h2 class="text-center"> Lo conseguimos </h2>
-                <img>
-                <p>
+
+                <p class="fs-3">
                     A pesar de la pandemia, hemos conseguido terminar la campaña de seguimiento del 2020 y hacer el
                     censo de invernada a nivel provincial. Sumamos ya 9 años en estas cuitas. Y afortunadamente,
                     todos hemos ido sorteando al virus cumpliendo las normas higiénico-sanitarias. Gracias a los que
@@ -94,12 +97,13 @@
                     para poder movernos a nuestras anchas por la popularísima “Azotea de las Espátulas” e
                     ininterrumpidamente durante tres meses.
                 </p>
+                <img>
             </article>
 
-            <article class="col">
+            <article class="col m-2">
                 <h2 class="text-center"> Una década de seguimiento </h2>
-                <img>
-                <p>
+
+                <p class="fs-3">
                     Casi sin darnos cuenta han pasado ya 10 años. Allá por el año 2012 comenzamos una aventura que
                     ya forma parte de nuestras vidas. Un encuentro repetido en el tiempo con los compañeros y ya
                     amigos y con nuestras queridas espátulas. Hemos superado retos y problemas, pero ahí seguimos.
@@ -109,13 +113,12 @@
                     de este proyecto y fueron a ver de qué iba eso de ver aves cruzando hacia África. De esta manera
                     un porcentaje importante se engancharon y forman ya parte de la familia Limes.
                 </p>
+                <img>
             </article>
 
-            <article class="col">
+            <article class="col m-2">
                 <h2 class="text-center"> Apertura de la campaña 2020 </h2>
-                <img>
-                <p>
-                    Comenzamos la novena campaña del seguimiento de las espátulas que utilizan el corredor
+                <p class="fs-3"> Comenzamos la novena campaña del seguimiento de las espátulas que utilizan el corredor
                     migratorio “Playa de la Barrosa- Cabo Roche”. Su espectacular “salto” a África desde la costa de
                     Cádiz, es todo un fenómeno natural que sorprende por su belleza. Se han llegado a observar cerca
                     de 2000 aves en tan solo 12 horas.
@@ -144,13 +147,40 @@
 
         <!-- Footer de la página -->
         <footer class="row back-white">
-            <div class="container-fluid py-5">
-                <div class="row">
-                    <div class="col-lg-3 mb-2">
-                        <span class="fs-5">Contacto</span>
-                    </div>
-                </div>
+
+                <!-- Section: Social media -->
+                <section class="col text-center">
+                    <!-- Facebook -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab bi-facebook"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab bi-twitter"></i></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab bi-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab bi-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab bi-linkedin"></i></a>
+                    <!-- Github -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab bi-github"></i></a>
+                </section>
+                <!-- Section: Social media -->
+
+            <!-- Copyright -->
+            <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2020 Copyright:
+                <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
             </div>
+            <!-- Copyright -->
         </footer>
     </div>
 </body>

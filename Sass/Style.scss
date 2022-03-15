@@ -16,7 +16,6 @@ Fuente para personas con dislexia
 
 //variable fuente
 $font-family: "Arial";
-$font-size: 2em;
 
 //Variables de colores
 
@@ -49,14 +48,14 @@ Body Style
 
 body {
     font-family: $font-family;
-    font-size: $font-size;
+    //font-size: $font-size;
 }
 
 /*
 Clases y etiquetas para dar color y estilo a los elementos de la página
 */
 
-//colores de fondo
+/* colores de fondo */
 .back-primary{
     background-color: $background-primary;
 }
@@ -73,7 +72,7 @@ Clases y etiquetas para dar color y estilo a los elementos de la página
     background-color: $background-black;
 }
 
-//colores de letras
+/* colores de letras */
 .cl-primary{
     color: $color-primary;
 }
@@ -87,4 +86,13 @@ Clases y etiquetas para dar color y estilo a los elementos de la página
 
 .cl-white{
     color: $color-white;
+}
+
+/* cambiar tamaño de algunos textos */
+.titulo{
+    font-size: 4em;
+}
+
+.menu{
+    font-size: 2em;
 }
