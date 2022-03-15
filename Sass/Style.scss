@@ -132,3 +132,13 @@ Clases y etiquetas para dar color y estilo a los elementos de la página
 .menu{
     font-size: 2em;
 }
+
+/* colores para botones */
+.button-color{
+    border-color: $color-danger;
+    &:hover{
+        color: $color-primary;
+        background-color: $background-warning;
+        border-color: $color-warning;
+    }
+}

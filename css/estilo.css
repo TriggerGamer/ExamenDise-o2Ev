@@ -97,4 +97,14 @@ Clases y etiquetas para dar color y estilo a los elementos de la página
   font-size: 2em;
 }
 
+/* colores para botones */
+.button-color {
+  border-color: #ff838d;
+}
+.button-color:hover {
+  color: #1D1905;
+  background-color: #FDFD95;
+  border-color: #FDFD95;
+}
+
 /*# sourceMappingURL=estilo.css.map */
